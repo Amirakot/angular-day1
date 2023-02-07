@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProtfilosComponent } from './protfilos/protfilos.component';
 import { FooterComponent } from './footer/footer.component';
+import { SkillComponent } from './skill/skill.component';
 
 
 @NgModule({
@@ -18,9 +19,10 @@ import { FooterComponent } from './footer/footer.component';
     SkillsComponent,
     ProtfilosComponent,
     FooterComponent,
+    SkillComponent,
 
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule,],
   providers: [],
   bootstrap: [AppComponent],
 })

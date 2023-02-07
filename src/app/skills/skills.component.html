@@ -10,7 +10,7 @@
       my focus
     </h2>
     <h3></h3>
-    <ul class="text-center">
+    <ul>
       <li>ui/ux Design</li>
       <li>responsive Design</li>
       <li>web design</li>
@@ -23,35 +23,18 @@
   <div class="col-md-8">
 
 
-<b> Html Skill </b>
-<div class = "progress">
+<!-- <b> Html Skill </b> -->
+<!-- <div class = "progress">
 <div class = "progress-bar progress-bar-striped" style = "width:80%">
 </div>
+</div> -->
+<br>
+
+<div *ngFor="let skill of arr" class="mb-5">
+<app-skill [skill]="skill.skill" [num]="skill.num" ></app-skill>
 </div>
 <br>
-<div class = "progress">
-<div class = "progress-bar bg-warning progress-bar-striped" style = "width:20%">
-<b> CSS Skill </b>
-</div>
-</div>
-<br>
-<div class = "progress">
-<div class = "progress-bar bg-success progress-bar-striped" style = "width:95%">
-<b> Bootstrap Skill </b>
-</div>
-</div>
-<br>
-<div class = "progress" style = "height:20px">
-<div class = "progress-bar bg-danger progress-bar-striped" style = "width:87%">
-<b> JavaScript Skill </b>
-</div>
-</div>
-<br>
-<div class = "progress" style = "height:30px">
-<div class = "progress-bar bg-info progress-bar-striped" style = "width:50%; height:30px ">
-<b> Jquery Skill </b>
-</div>
-</div>
+
   </div>
 
  </div>

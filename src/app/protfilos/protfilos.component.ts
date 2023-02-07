@@ -6,8 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./protfilos.component.css']
 })
 export class ProtfilosComponent implements OnInit {
-
-  constructor() { }
+arr:Array<string>;
+// odd:number;
+  constructor() {
+    this.arr = ['web design', 'web devloper', 'web', 'web', 'web', 'web'];
+  // this.odd =  0;
+  //
+  }
 
   ngOnInit(): void {
   }
